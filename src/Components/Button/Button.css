@@ -1,0 +1,18 @@
+.button {
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 18px;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.primary { background-color: blue;}
+.secondary { background-color: blueviolet;}
+.danger { background-color: orange;}
+.error { background-color: red;}
+.success { background-color: green;}
