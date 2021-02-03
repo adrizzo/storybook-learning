@@ -1,0 +1,27 @@
+.h1 {
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+.primaryH1 {
+  color: blue;
+}
+
+.secondaryH1 {
+  color: blueviolet;
+}
+
+.errorH1 {
+  color: red;
+  font-size: 2rem;
+}
+
+.warningH1 {
+  color: orange;
+  font-size: 2rem;
+}
+
+.successH1 {
+  color: green;
+  font-size: 2rem;
+}
