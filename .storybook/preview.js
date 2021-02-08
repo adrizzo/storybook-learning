@@ -14,4 +14,4 @@ export const parameters = {
 
 addDecorator(story => <CenterAlign>{story()}</CenterAlign>)
 
-addDecorator((storyFn, context) => withConsole()(storyFn)(context))
+addDecorator((unboundStoryFn, context) => withConsole()(unboundStoryFn)(context))
